@@ -1,0 +1,138 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px 0px 80px;
+}
+
+.hi {
+    padding: 50px 0;
+}
+
+.hi__row {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: start;
+    background-image: url(assets/image/background.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.hi__body {
+    color: #000;
+    padding: 0px 20px 0px 0px;
+}
+
+.hi__title {
+    margin: 80px 0px 40px 0px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.hi__text {
+    margin: 0px 0px 40px 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.Posibilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block__row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.block__item {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.block__column_1 {
+    height: 450px;
+}
+
+.block__column_2 {
+    height: 300px;
+}
+
+.block__item__title {
+    padding-top: 15px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.block__item__titl_white {
+    padding-top: 15px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: white;
+    background: #EC615B;
+
+}
+
+.block__item_text {
+    padding: 10px 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+footer {
+    margin-bottom: 50px;
+
+}
+
+.footer__item {
+    margin: 80px 35px 80px 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.footer__item_redtext {
+    margin: 80px 35px 80px 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: red;
+}
+
+.footer__row {
+    display: flex;
+    margin-left: 135px;
+    margin-right: 700px;
+}
